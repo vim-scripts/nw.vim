@@ -1,9 +1,16 @@
 " Vim syntax file
 " Language:		NOWEB
 " Author:		Dirk Baechle <dl9obn@darc.de>
-" Date:			2002-10-29
-" Version:		1.0
+" Date:			2002-10-31
+" Version:		1.1
 " Derived from: 	cweb.vim by Andreas Scherer
+
+" History
+"
+" v1.1: Corrected `current_syntax = "noweb"' to
+"                 `current_syntax = "nw"'
+"
+" v1.0: Initial version
 
 " NOWEB is a collection of tools for "Literate Programming". 
 " Unlike WEB or CWEB it is not bound to a specific programming
@@ -50,6 +57,6 @@ if !exists("did_noweb_syntax_inits")
   hi link nowebStartText Constant
 endif
 
-let b:current_syntax = "noweb"
+let b:current_syntax = "nw"
 
 " vim: ts=8
